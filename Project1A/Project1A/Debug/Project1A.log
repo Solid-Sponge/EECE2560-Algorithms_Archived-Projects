@@ -1,0 +1,34 @@
+﻿Build started 10/2/2016 5:27:51 PM.
+     1>Project "C:\Users\Michael\Documents\NEU\Second Year\EECE2560\GitFolder\Project1A\Project1A\Project1A.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt code.cpp main.cpp mastermind.cpp response.cpp
+         response.cpp
+         mastermind.cpp
+     1>c:\users\michael\documents\neu\second year\eece2560\gitfolder\project1a\project1a\mastermind.cpp(44): warning C4101: 'e' : unreferenced local variable
+     1>c:\users\michael\documents\neu\second year\eece2560\gitfolder\project1a\project1a\mastermind.cpp(63): warning C4101: 'e' : unreferenced local variable
+     1>c:\users\michael\documents\neu\second year\eece2560\gitfolder\project1a\project1a\mastermind.cpp(82): warning C4101: 'e' : unreferenced local variable
+     1>c:\users\michael\documents\neu\second year\eece2560\gitfolder\project1a\project1a\mastermind.cpp(101): warning C4101: 'e' : unreferenced local variable
+     1>c:\users\michael\documents\neu\second year\eece2560\gitfolder\project1a\project1a\mastermind.cpp(132): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\michael\documents\neu\second year\eece2560\gitfolder\project1a\project1a\mastermind.cpp(154): warning C4101: 'e' : unreferenced local variable
+     1>c:\users\michael\documents\neu\second year\eece2560\gitfolder\project1a\project1a\mastermind.cpp(229): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\michael\documents\neu\second year\eece2560\gitfolder\project1a\project1a\mastermind.cpp(238): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\michael\documents\neu\second year\eece2560\gitfolder\project1a\project1a\mastermind.cpp(245): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\michael\documents\neu\second year\eece2560\gitfolder\project1a\project1a\mastermind.cpp(273): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         main.cpp
+     1>c:\users\michael\documents\neu\second year\eece2560\gitfolder\project1a\project1a\main.cpp(40): warning C4101: 'e' : unreferenced local variable
+         code.cpp
+     1>c:\users\michael\documents\neu\second year\eece2560\gitfolder\project1a\project1a\code.cpp(62): warning C4101: 'e' : unreferenced local variable
+     1>c:\users\michael\documents\neu\second year\eece2560\gitfolder\project1a\project1a\code.cpp(101): warning C4101: 'e' : unreferenced local variable
+     1>c:\users\michael\documents\neu\second year\eece2560\gitfolder\project1a\project1a\code.cpp(258): warning C4101: 'e' : unreferenced local variable
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Documents\NEU\Second Year\EECE2560\GitFolder\Project1A\Debug\Project1A.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Michael\Documents\NEU\Second Year\EECE2560\GitFolder\Project1A\Debug\Project1A.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Documents\NEU\Second Year\EECE2560\GitFolder\Project1A\Debug\Project1A.lib" /MACHINE:X86 Debug\code.obj
+         Debug\main.obj
+         Debug\mastermind.obj
+         Debug\response.obj
+         Project1A.vcxproj -> C:\Users\Michael\Documents\NEU\Second Year\EECE2560\GitFolder\Project1A\Debug\Project1A.exe
+     1>Done Building Project "C:\Users\Michael\Documents\NEU\Second Year\EECE2560\GitFolder\Project1A\Project1A\Project1A.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.23

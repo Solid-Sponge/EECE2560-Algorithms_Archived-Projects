@@ -1,0 +1,21 @@
+﻿Build started 10/18/2015 2:52:57 AM.
+     1>Project "C:\Users\Michael\Documents\NEU\Second Year\EECE2560\Project3A\Project3A\Project3A.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt grid.cpp main.cpp
+         main.cpp
+     1>c:\users\michael\documents\neu\second year\eece2560\project3a\project3a\index.h(83): warning C4172: returning address of local variable or temporary
+     1>c:\users\michael\documents\neu\second year\eece2560\project3a\project3a\main.cpp(48): warning C4101: 's' : unreferenced local variable
+     1>c:\users\michael\documents\neu\second year\eece2560\project3a\project3a\main.cpp(182): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\michael\documents\neu\second year\eece2560\project3a\project3a\main.cpp(197): warning C4101: 'endTime' : unreferenced local variable
+         grid.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Documents\NEU\Second Year\EECE2560\Project3A\Debug\Project3A.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Michael\Documents\NEU\Second Year\EECE2560\Project3A\Debug\Project3A.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Documents\NEU\Second Year\EECE2560\Project3A\Debug\Project3A.lib" /MACHINE:X86 Debug\grid.obj
+         Debug\main.obj
+         Debug\wordlist.obj
+         Project3A.vcxproj -> C:\Users\Michael\Documents\NEU\Second Year\EECE2560\Project3A\Debug\Project3A.exe
+     1>Done Building Project "C:\Users\Michael\Documents\NEU\Second Year\EECE2560\Project3A\Project3A\Project3A.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.20

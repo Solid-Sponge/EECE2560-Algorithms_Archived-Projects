@@ -1,0 +1,71 @@
+﻿Build started 10/19/2015 8:11:02 PM.
+     1>Project "C:\Users\Michael\Documents\NEU\Second Year\EECE2560\Project3B\Project3B\Project3B.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Michael\Documents\NEU\Second Year\EECE2560\Project3B\Project3B" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Project3A\Project3A\main.cpp ..\..\Project3A\Project3A\wordlist.cpp hashtable.cpp heap.cpp
+         heap.cpp
+     1>c:\users\michael\documents\neu\second year\eece2560\project3b\project3b\heap.cpp(29): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\michael\documents\neu\second year\eece2560\project3b\project3b\heap.cpp(28) : while compiling class template member function 'heap<std::string>::heap(std::vector<T,std::allocator<_Ty>> &)'
+                 with
+                 [
+                     T=std::string
+         ,            _Ty=std::string
+                 ]
+                 c:\users\michael\documents\neu\second year\eece2560\project3b\project3b\heap.cpp(167) : see reference to class template instantiation 'heap<std::string>' being compiled
+     1>c:\users\michael\documents\neu\second year\eece2560\project3b\project3b\heap.cpp(96): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\michael\documents\neu\second year\eece2560\project3b\project3b\heap.cpp(95) : while compiling class template member function 'void heap<std::string>::initializeMaxHeap(std::vector<T,std::allocator<_Ty>> &)'
+                 with
+                 [
+                     T=std::string
+         ,            _Ty=std::string
+                 ]
+     1>c:\users\michael\documents\neu\second year\eece2560\project3b\project3b\heap.cpp(143): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\michael\documents\neu\second year\eece2560\project3b\project3b\heap.cpp(142) : while compiling class template member function 'void heap<std::string>::initializeMinHeap(std::vector<T,std::allocator<_Ty>> &)'
+                 with
+                 [
+                     T=std::string
+         ,            _Ty=std::string
+                 ]
+         main.cpp
+     1>c:\users\michael\documents\neu\second year\eece2560\project3a\project3a\index.h(83): warning C4172: returning address of local variable or temporary
+     1>c:\users\michael\documents\neu\second year\eece2560\project3a\project3a\main.cpp(58): warning C4101: 's' : unreferenced local variable
+     1>c:\users\michael\documents\neu\second year\eece2560\project3a\project3a\main.cpp(193): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\michael\documents\neu\second year\eece2560\project3a\project3a\main.cpp(207): warning C4101: 'endTime' : unreferenced local variable
+     1>c:\users\michael\documents\neu\second year\eece2560\project3a\project3a\main.cpp(394): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\michael\documents\neu\second year\eece2560\project3a\project3a\main.cpp(251) : see reference to function template instantiation 'void findMatchesHash<std::string>(wordlist &,grid &)' being compiled
+         Generating Code...
+         Compiling...
+         hashtable.cpp
+     1>c:\users\michael\documents\neu\second year\eece2560\project3b\project3b\hashtable.cpp(71): warning C4661: 'hashtable<std::string>::hashtable(void)' : no suitable definition provided for explicit template instantiation request
+                 c:\users\michael\documents\neu\second year\eece2560\project3b\project3b\hashtable.h(30) : see declaration of 'hashtable<std::string>::hashtable'
+     1>c:\users\michael\documents\neu\second year\eece2560\project3b\project3b\hashtable.cpp(38): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\michael\documents\neu\second year\eece2560\project3b\project3b\hashtable.cpp(36) : while compiling class template member function 'void hashtable<std::string>::deleteItem(T &)'
+                 with
+                 [
+                     T=std::string
+                 ]
+                 c:\users\michael\documents\neu\second year\eece2560\project3b\project3b\hashtable.cpp(71) : see reference to class template instantiation 'hashtable<std::string>' being compiled
+     1>c:\users\michael\documents\neu\second year\eece2560\project3b\project3b\hashtable.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\michael\documents\neu\second year\eece2560\project3b\project3b\hashtable.cpp(49) : while compiling class template member function 'bool hashtable<std::string>::inList(T &)'
+                 with
+                 [
+                     T=std::string
+                 ]
+     1>c:\users\michael\documents\neu\second year\eece2560\project3b\project3b\hashtable.cpp(21): warning C4661: 'hashtable<std::string>::hashtable(void)' : no suitable definition provided for explicit template instantiation request
+                 c:\users\michael\documents\neu\second year\eece2560\project3b\project3b\hashtable.h(30) : see declaration of 'hashtable<std::string>::hashtable'
+         wordlist.cpp
+     1>c:\users\michael\documents\neu\second year\eece2560\project3a\project3a\wordlist.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\michael\documents\neu\second year\eece2560\project3a\project3a\wordlist.cpp(150): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\michael\documents\neu\second year\eece2560\project3a\project3a\wordlist.cpp(200): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Documents\NEU\Second Year\EECE2560\Project3B\Debug\Project3B.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Michael\Documents\NEU\Second Year\EECE2560\Project3B\Debug\Project3B.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Documents\NEU\Second Year\EECE2560\Project3B\Debug\Project3B.lib" /MACHINE:X86 Debug\grid.obj
+         Debug\main.obj
+         Debug\wordlist.obj
+         Debug\hashtable.obj
+         Debug\heap.obj
+         Project3B.vcxproj -> C:\Users\Michael\Documents\NEU\Second Year\EECE2560\Project3B\Debug\Project3B.exe
+     1>Done Building Project "C:\Users\Michael\Documents\NEU\Second Year\EECE2560\Project3B\Project3B\Project3B.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.62
